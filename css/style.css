@@ -25,10 +25,10 @@ ul li{
     list-style: none;
 }
 
-p, li{
-    font-size: 1.6rem;
-    margin-bottom: 0.5;
-    letter-spacing: 0.15em;
+p{
+    font-size: 1.1rem;
+    margin-bottom: 0.9em;
+    letter-spacing: 0.10em;
 }
 
 
@@ -45,14 +45,18 @@ p, li{
 }
 
 .md-heading{
-    font-size: 2.2rem;
+    font-size: 2rem;
+}
+
+.sm-heading{
+    font-size: 1.5rem;
 }
 
 .text-red{
     color: #e63946;
 }
 
-.text-white{
+.text-light{
     color: #f4f4f4;
 }
 
@@ -63,6 +67,20 @@ p, li{
 .text-gray{
     color: #555555;
 }
+
+.btn{
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 0.5em 1.54em;
+    font-weight: 500;
+    margin: 0.5em;
+}
+
+.btn-primary{
+    background-color: #fff;
+    border-radius: 10rem;
+}
+
 /* ------------------------------------ */
 
 /* ########################### Header styling ########################### */
@@ -73,7 +91,7 @@ p, li{
     background-position: center;
     background-size:cover;
     background-repeat: no-repeat;
-
+    position: relative;
 }
 
 
@@ -123,3 +141,22 @@ h1,h2,h3{
 }
 
 /* --------------------------------------- */
+
+
+/* ################## header content styling ############# */
+.header-content h1{
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.header-content p{
+    text-transform: uppercase;
+}
+
+.header-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
